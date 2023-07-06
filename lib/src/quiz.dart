@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/data/questions.dart';
-import 'package:quiz_app/start_screen.dart';
-import 'package:quiz_app/question_screen.dart';
-import 'package:quiz_app/result_screen.dart';
+
+import 'package:quiz_app/src/screens/question_screen.dart';
+import 'package:quiz_app/src/screens/result_screen.dart';
+import 'package:quiz_app/src/screens/start_screen.dart';
+
+import 'data/questions.dart';
 
 const mainColor = [
   Color.fromARGB(255, 107, 15, 168),
